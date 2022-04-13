@@ -1,7 +1,7 @@
 .bannerContainer {
     color: #fff;
     object-fit: contain;
-    height: 448px;
+    min-height: 448px;
 }
 
 .bannerContents{

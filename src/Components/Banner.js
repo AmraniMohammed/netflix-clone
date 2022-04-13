@@ -6,7 +6,7 @@ import './Banner.css'
 const base_url = "https://image.tmdb.org/t/p/w500/"
 
 
-function Banner({fetchurl}) {
+function Banner() {
     const [movie, setMovie] = useState([])
 
     useEffect(() => {
@@ -28,7 +28,7 @@ function Banner({fetchurl}) {
         style={{
             backgroundSize: 'cover',
             backgroundImage: `url(${base_url}${movie.backdrop_path})`,
-            backgroundPosition: 'center center'
+            backgroundPosition: 'center center',
         }}
     >
         <div className='bannerContents'>
