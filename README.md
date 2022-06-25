@@ -1,5 +1,3 @@
 # Netflix clone
 
-## Reactjs
-
-## TMDB API
+## By using : Reactjs & TMDB API 
